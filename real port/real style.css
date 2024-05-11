@@ -1,0 +1,81 @@
+*{
+    margin: 11px;
+    padding: 11px;
+    background-color:  rgb(7,13,27);
+    color: white;
+}
+/* this is for the whole body*/
+body{
+
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+.aboutme {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    opacity: 80%;
+    background-color:  rgb(7,13,27);
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.link a{
+    max-width: 120px;
+    margin: 20px;
+    text-align: center;
+    line-height: 85px;
+    font-size: 30px;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: "Segoe UI", Arial, sans-serif;
+    cursor:pointer;
+    display: inline-block;
+}
+.link a:hover {
+    color: orange;
+}
+section{
+    border-style: solid;
+    display: flex;
+    border-radius: 50px;
+    padding: 10px;
+    border-color: red;
+    flex-wrap: nowrap;
+    
+}
+.aboutme, h1{
+    text-align: left;
+    max-width: 640px;
+    background-color: red;
+    height: 670px;
+    display: flex;
+}
+.image::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.image{
+    background-color: antiquewhite;
+    float: right;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
