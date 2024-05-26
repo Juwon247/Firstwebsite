@@ -1,77 +1,88 @@
 *{
-    margin: 11px;
-    padding: 11px;
-    background-color:  rgb(7,13,27);
-    color: white;
+    background-color:  white;
+    color: black;
+    font-size: 18px;
+    font-family: "Segoe UI", Arial, sans-serif;
+
 }
 /* this is for the whole body*/
 body{
-
     font-family: "Segoe UI", Arial, sans-serif;
 }
 .aboutme {
-    width: 100%;
-    float: left;
     font-size: 18px;
     font-family: "Segoe UI", Arial, sans-serif;
+    width: 50%;
 }
-
-.link{
+.pic{
     display: flex;
-    flex-direction: row;
     justify-content: right;
-    opacity: 80%;
-    background-color:  rgb(7,13,27);
-    position: sticky;
-    top: 0;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
+    width: 470px;
+    height: 450px;
+    gap: 20px;
 }
-.link a{
-    max-width: 120px;
-    margin: 20px;
-    text-align: center;
-    line-height: 85px;
-    font-size: 30px;
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-    font-family: "Segoe UI", Arial, sans-serif;
-    cursor:pointer;
-    display: inline-block;
-}
-.link a:hover {
-    color: orange;
-}
-section{
-    border-style: solid;
-    display: flex;
-    border-radius: 50px;
-    padding: 10px;
-    border-color: red;
-    flex-wrap: nowrap;
-    
+h1{
+    height: 40%;
 }
 .aboutme, h1{
     text-align: left;
-    max-width: 640px;
-    background-color: red;
-    height: 670px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.stack{
+    justify-content: center;
+    width: 100%;
     display: flex;
 }
-.image::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-.image{
-    background-color: antiquewhite;
-    float: right;
-    padding: 10px;
-}
 
-
+section{
+    padding: 30px;
+    margin: 80px;
+    display: flex;
+    border-radius: 50px;
+    flex-wrap: nowrap;
+}
+.textinworks{
+    text-align: left;
+    display: flex;
+    font-size: 18px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+.balling{
+    gap: 100px;
+    justify-content: left;
+    width: 100%;
+}
+.skills{
+    background-color: purple;
+    flex-direction: column;
+    gap: 30px;
+}
+.stack{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+.works{
+    background-color: green;
+}
+.introduction{
+    background-color: red;
+    flex-direction: row;
+    gap: 30px;
+}
+.contact{
+    background-color: orange;
+    flex-direction: column;
+    display: flex;
+}
 
 
 
